@@ -11,7 +11,7 @@ This payload exfiltrate the target's Windows product key to a remote server. *On
 ## Demo
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Who-Is-Julien/Ducky-Scripts/Windows-Product-Duckey/demo.gif">
+  <img src="https://raw.githubusercontent.com/Who-Is-Julien/Ducky-Scripts/main/Windows-Product-Duckey/demo.gif">
 </h2>
 
 Here we can see that the attacker's server received the following request:
