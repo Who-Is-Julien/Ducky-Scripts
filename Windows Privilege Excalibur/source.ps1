@@ -3,7 +3,7 @@
 #Replace <REFRESH_TOKEN> with the actual "Refresh Token" of your app.
 
 
-#clear windows run dialog history
+#Clear windows run dialog history
 Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" -Name "*" -Force
 
 #Define the headers required for the access token request
