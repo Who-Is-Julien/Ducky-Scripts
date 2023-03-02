@@ -6,7 +6,7 @@
 
 ## Description
 
-This payload exfiltrates Windows system information and installed programs from the target computer to DropBox cloud storage for subsequent privilege escalation analysis. *Only works on Windows 10,11.*
+This payload exfiltrates Windows system information and installed programs from the target computer to Dropbox cloud storage for subsequent privilege escalation analysis. *Only works on Windows 10,11.*
 
 ## Usage
 
