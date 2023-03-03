@@ -12,12 +12,12 @@ This payload exfiltrate the target's Windows product key to a remote server. *On
 
 ### Setup
 
-1. Set up a website on your server or a computer in the same network as the target's computer. You can use Python to do this by running the following command:
+- Set up a website on your server or a computer in the same network as the target's computer. You can use Python to do this by running the following command:
 ```
 python -m http.server 80
 ```
-2. Download the "payload.txt" and ".ps1" files and modify them to include the IP address of your server.
-3. Move the modified ".ps1" file to the root directory of your website, so it is downloadable from this address:
+- Download the "payload.txt" and ".ps1" files and modify them to include the IP address of your server.
+- Move the modified ".ps1" file to the root directory of your website, so it is downloadable from this address:
 ```
 http://<REMOTE_IP_ADDRESS>/.ps1
 ```
