@@ -34,9 +34,9 @@ This payload exfiltrates Windows system information, user information (such as p
 
 - **Prepare your payload**
 
-    - Download the Powershell script ".ps1".
+    - Download the Powershell script "script.ps1".
     - Modify it to include the <APP_KEY>, <APP_SECRET>, and <REFRESH_TOKEN> of your application.
-    - Upload your modified ".ps1" file to Dropbox and copy the upload link.
+    - Upload your modified "script.ps1" file to Dropbox and copy the upload link.
     - Replace the end of the link from "?dl=0" to "?dl=1"  
     *This is your "<DOWNLOAD_LINK>".*
     - Download the "payload.txt" file.
